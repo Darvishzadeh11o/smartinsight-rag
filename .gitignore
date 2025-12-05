@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and vector indexes (can be rebuilt)
+data/
+vectorstore/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
